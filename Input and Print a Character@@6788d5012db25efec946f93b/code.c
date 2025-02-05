@@ -3,17 +3,11 @@
 int main() {
     float num;
     
-    // Prompt the user for input
-    printf("Enter a float: ");
-    
-    // Scan the float value
-    if (scanf("%f", &num) == 1) {
-        // If the input is valid, display the value
-        printf("You entered: %.2f\n", num);
-    } else {
-        // If the input is invalid, display an error message
-        printf("Invalid input! Please enter a valid float.\n");
-    }
+    // Read the input float directly without the prompt
+    scanf("%f", &num);
+
+    // Print the float with 2 decimal places
+    printf("%.2f\n", num);
 
     return 0;
 }
