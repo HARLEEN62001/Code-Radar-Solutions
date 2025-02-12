@@ -10,5 +10,5 @@ int main() {
     // Print the entered double
     printf("You entered: %lf\n", num);
 
-    return 0;
+    return 0;
 }
