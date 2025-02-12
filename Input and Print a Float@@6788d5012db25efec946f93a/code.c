@@ -1,16 +1,7 @@
-#include <stdio.h>
-
-int main() {
-    float num;
-    
-
-    if (scanf("%f", &num) == 1); {
-        
-        printf("%.2f\n", num);
-    } else {
-        
-        printf("Invalid input\n");
-    }
-
+#include<stdio.h>
+int main(){
+    float a;
+    scanf("%f",&a);
+    printf("You entered: %0.2f",a);
     return 0;
 }
