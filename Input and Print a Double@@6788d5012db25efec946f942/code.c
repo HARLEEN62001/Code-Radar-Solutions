@@ -2,7 +2,13 @@
 
 int main() {
     double num;
-    printf("Enter a number: ");
+
+    // Take a double-precision floating point number as input
+    printf("Enter a double precision floating point number: ");
     scanf("%lf", &num);
-    printf("%lf", num);
+
+    // Print the entered double
+    printf("You entered: %lf\n", num);
+
+    return 0;
 }
